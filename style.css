@@ -98,7 +98,7 @@ body{
 .introduction{
     justify-content: center;
     align-items: center;
-    display: none;
+    display: flex;
     flex-direction: column;
     margin: 2rem 0rem;
 }
@@ -184,7 +184,7 @@ h4{
     font-family: "Poppins", sans-serif;
 }
 #projects{
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: rgb(240, 240, 240);
     font-size: 2rem;
