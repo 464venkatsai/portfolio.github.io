@@ -95,6 +95,11 @@ body{
     margin: 0px;
     padding: 0px;
 }
+.github-links{
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+}
 .introduction{
     justify-content: center;
     align-items: center;
@@ -446,13 +451,24 @@ p{
     display: flex;
     /* margin: 1rem; */
 }
-.container{
+.container1{
     display: flex;
     justify-content: space-evenly;
+    margin: 10px 0px;
+}
+.container2{
+    display: flex;
+    justify-content: start;
+    margin: 0rem 4rem;
+    margin-top: 2rem;
+    
 }
 .thumbnail{
     width: 100%;
     height: 48%;
+}
+#lung{
+    height: 64%;
 }
 .viewbutton{
     color: white;
